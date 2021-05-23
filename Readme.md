@@ -1,6 +1,6 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Umar Kim](https://up.htmlacademy.ru/htmlcss/31/user/1169531).
+* Студент: [Umar Atyrau Kim](https://up.htmlacademy.ru/htmlcss/31/user/1169531).
 * Наставник: [Кирьян Горячев] https://htmlacademy.ru/profile/id578191
 
 ---
