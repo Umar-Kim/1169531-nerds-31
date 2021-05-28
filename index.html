@@ -2,56 +2,66 @@
 <html lang="ru">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Academy: Нёрдс</title>
 </head>
 
 
 <header>
-  <nav>
-    <ul>
-      <li><a href="blank.html">Студия</a></li>
-      <li><a href="blank.html">Клиенты</a></li>
-      <li><a href="catalog.html">Магазин</a></li>
-      <li><a href="blank.html">Контакты</a></li>
-    </ul>
+  <div>
+    <nav>
+      <ul>
+        <li><a href="blank.html">Студия</a></li>
+        <li><a href="blank.html">Клиенты</a></li>
+        <li><a href="catalog.html">Магазин</a></li>
+        <li><a href="blank.html">Контакты</a></li>
+      </ul>
+    </nav>
     <a href="blank.html">Корзина</a>
-  </nav>
+</div>
 </header>
 <main>
-  <section>
-    <p>Долго, дорого, скрупулезно.</p>
+
+  <div>
+    <h2>Долго, дорого, скрупулезно.</h2>
 
     <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
 
-    <a href="blank.html">Заказать</a>
-  </section>
-  <section>
-    <h2>ВЕБ-САЙТЫ</h2>
-    <ul>
-      <li>Мир никогда не будет прежним после того как увидит ваш сайт!</li>
-      <a href="blank.html">Заказать</a>
-      <h2>ПРИЛОЖЕНИЯ</h2>
-      <li>Покорите топ-10 приложений в AppStore и Google Play</li>
-      <a href="blank.html">Заказать</a>
+    <a href="blank.html">Узнать Больше</a>
+  </div>
 
-      <h2>ПРЕЗЕНТАЦИИ</h2>
-      <li>Вы даже не подозреваете, насколько вы изумительны!</li>
+
+  <section>
+    <h3>ВЕБ-САЙТЫ</h3>
+    <div>
+      <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
       <a href="blank.html">Заказать</a>
-    </ul>
+    </div>
+    <div>
+      <h3>ПРИЛОЖЕНИЯ</h3>
+      <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+      <a href="blank.html">Заказать</a>
+    </div>
+    <div>
+      <h3>ПРЕЗЕНТАЦИИ</h3>
+      <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+      <a href="blank.html">Заказать</a>
+    </div>
   </section>
   <section>
-    <h2>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
+    <h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
     <p>
       Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не
       покладая рук, как роботы.</p>
-    <p>ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ:</p>
+    <h3>ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ:</h3>
     <ul>
       <li>Веб-сайтов любой сложности</li>
       <li>Мобильных приложений для iOS и Android</li>
       <li> Слайдшоу и видео для корпоративных презентаций</li>
     </ul>
-    <!---здесь будет картинка------>
+    <!-- здесь будет картинка  -->
     <p>с 2004 года ЛЮБИМ ТОЧНОСТЬ ВО ВСЁМ:</p>
     <ul>
       <li>146 % Уровень самоотдачи</li>
@@ -59,18 +69,19 @@
       <li>50 % Минимальная прелоплата</li>
     </ul>
   </section>
-</main>
+
 <section>
   <h2>Как до нас добраться</h2>
-  <!----Здесь будет карта-->
+  <!-- Здесь будет карта -->
   <p>NERDS DESIGN STUDIO</p>
   <ul>
     <li>Адрес: г. Санкт-Петербург, П наб.Реки Карповки, 5 литр</li>
     <li>Телефон: <a href="tel:+78005558628">+7 (800) 555-86-28</a></li>
   </ul>
 </section>
+
+</main>
 <footer>
-  <section>
     <h2>Давайте дружить, это выгодно!</h2>
     <p>Скидка 10% для друзей из социальных сетей.</p>
     <ul>
@@ -84,19 +95,32 @@
         <a href="#">Инстаграм</a>
       </li>
     </ul>
-  </section>
 </footer>
-<section>
-  <!----Здесь разметка внутренней страницы-->
+
+
+<div>
+  <!-- Здесь разметка внутренней страницы -->
   <h2>Напишите нам</h2>
   <form action="https://echo.htmlacademy.ru" method="post">
-    <label for="appoinment-mail">Ваше имя</label>
-    <input id="appointment-mail" type="text" name="name" placeholder="Имя и Фамилия">
-    <label for="appoinment-mail">Ваш email</label>
-    <input id="appointment-mail" type="text" mail="mail" placeholder="email@examle.com">
-    <label for="appoinment-text">Текст письма</label>
-    <input id="appointment-text" type="text" text="text" placeholder="В свободной форме">
+    <div>
+      <label for="form-name">Ваше имя</label>
+      <input id="form-name" type="text" name="name" placeholder="Имя и Фамилия">
+    </div>
+
+    <div>
+      <label for="form-email">Ваш email</label>
+      <input id="form-email" type="email" name="email" placeholder="email@examle.com">
+    </div>
+
+    <div>
+      <label for="form-textfield">Текст письма</label>
+      <textarea name="textfield" id="form-textfield" placeholder="В свободной форме"></textarea>
+    </div>
+    <button type="submit">Отправить</button>
   </form>
-</section>
+</div>
+
 </body>
+
 </html>
+
